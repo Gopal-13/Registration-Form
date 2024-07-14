@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Registration Form</h2>
+        <form id="registrationForm" action="https://api.web3forms.com/submit" method="post">
+
+            <input type="hidden" name="access_key" value="3dd4debe-89ca-403d-b01b-1c258ee4b2f9">
+
+            <input type="text" id="name" placeholder="Full Name*" required>
+
+            <input type="Username" id="Username" placeholder="Username*" required>
+
+            <input type="email" id="email" placeholder="Email*" required>
+
+            <input type="Phone number" id="" placeholder="Phone number*" required>
+
+            <input type="password" id="password" placeholder="Enter password*" required>
+
+            <input type="Confirm password" id="Confirm password" placeholder="Confirm password*" required>
+
+            <div class="checkbox">
+                <label>
+                    <input type="hidden" name="Agree" value="0">
+                    <input type="checkbox" name="Agree" id="Agree" class="widget_input">
+                    <span class="agree-condition">
+                        "I hereby declared that all the above information are correct"
+                    </span>
+                </label>
+            </div>
+
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+
+</html>
